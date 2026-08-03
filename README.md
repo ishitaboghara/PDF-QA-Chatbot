@@ -2,16 +2,20 @@
 
 An AI-powered PDF Question Answering (RAG) chatbot built using **Python, Streamlit, LangChain, Hugging Face, and FAISS**.
 
+---
+
 ## 🚀 Features
 
 - Upload one or multiple PDF files
 - Semantic search using FAISS
 - Question Answering using Google FLAN-T5
 - ChatGPT-like interface
-- Source PDF name and page number
-- Local deployment (no paid APIs)
+- Displays Source PDF and Page Number
+- Local deployment (No paid APIs)
 
-## 🛠️ Tech Stack
+---
+
+## 🛠 Tech Stack
 
 - Python
 - Streamlit
@@ -21,11 +25,12 @@ An AI-powered PDF Question Answering (RAG) chatbot built using **Python, Streaml
 - FAISS
 - PyPDF
 
+---
+
 ## 📂 Project Structure
 
 ```text
 src/
-│
 ├── config.py
 ├── pdf_loader.py
 ├── text_splitter.py
@@ -36,25 +41,64 @@ src/
 ├── rag_pipeline.py
 ```
 
-## ⚙️ Installation
+---
+
+# 📸 Screenshots
+
+## Home Screen
+
+![Home](screenshots/home.png)
+
+---
+
+## Upload PDF
+
+![Upload](screenshots/upload.png)
+
+---
+
+## Processing PDF
+
+![Processing](screenshots/processing.png)
+
+---
+
+## Chat Interface
+
+![Chat](screenshots/chat.png)
+
+---
+
+## Generated Answer
+
+![Answer](screenshots/answer.png)
+
+---
+
+## Terminal Execution
+
+![Terminal](screenshots/terminal.png)
+
+---
+
+# ▶️ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PDF_QA_Chatbot.git
+git clone https://github.com/ishitaboghara/PDF-QA-Chatbot.git
 
-cd PDF_QA_Chatbot
+cd PDF-QA-Chatbot
 
 pip install -r requirements.txt
 
 streamlit run app.py
 ```
 
-## 📸 Screenshots
-
-(Add screenshots here after deployment.)
+---
 
 ## 👩‍💻 Author
 
 **Ishita Boghara**
-MCA
+
+MCA Student
 
 SNDT Women's University
