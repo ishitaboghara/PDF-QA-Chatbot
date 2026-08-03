@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Vector DB
+vectorstore/
+
+# Uploaded PDFs
+data/uploaded_pdfs/
+
+# Logs
+logs/
+
+# Chat History
+chat_history/
+
+# Environment
+.env
